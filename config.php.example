@@ -1,0 +1,4 @@
+<?php
+
+$key = 'here_you_must_put_your_api_key';
+$secret = 'here_you_must_put_your_api_secret';

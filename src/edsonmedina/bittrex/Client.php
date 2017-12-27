@@ -52,13 +52,13 @@ class Client
 			throw new \Exception(curl_error($ch));
 		}
 
-		$answer = json_decode($result);
+		$answer = json_decode($result, true);
 
-		if ($answer->success == false) {
-			throw new \Exception ($answer->message);
+        if ($answer['success'] == false) {
+            throw new \Exception ($answer['message']);
 		}
 
-		return $answer->result;
+		return $answer['result'];
 	}
 
 	/**
