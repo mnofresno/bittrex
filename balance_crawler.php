@@ -64,6 +64,6 @@
             }
         }
     }
-    
-    echo "SALDO TOTAL USD: $saldoTotalUSD, SALDO TOTAL MBTC: $saldoTotalMBTC";
     echo "\n\n";
+    echo "SALDO TOTAL USD: $saldoTotalUSD, SALDO TOTAL MBTC: $saldoTotalMBTC";
+    
